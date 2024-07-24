@@ -1,0 +1,15 @@
+# import pandas and numpy
+import pandas as pd
+import numpy as np
+
+# install rdkit-pypi and import rdkit.Chem
+!pip install rdkit-pypi
+from rdkit import Chem
+from rdkit.Chem import DataStructs
+from rdkit.Chem import AllChem
+from rdkit.ML.Descriptors.MoleculeDescriptors import MolecularDescriptorCalculator
+from rdkit.ML.Descriptors import MoleculeDescriptors
+from rdkit.Chem import Descriptors
+
+# import train test split
+from sklearn.model_selection import train_test_split
